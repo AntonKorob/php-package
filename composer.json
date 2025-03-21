@@ -19,9 +19,8 @@
   "autoload": {
     "psr-4": {
       "Php\\Package\\": "src",
-      "files": [
-          "src/Utils.php"
-      ]
+      "Php\\Package\\Utils\\": "src/Utils"
+      
     }
   },
   "autoload-dev": {
